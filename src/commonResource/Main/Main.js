@@ -23,6 +23,7 @@ import  banker  from "../images/home/banker.png";
 import  watchSeries  from "../images/icons/watch-series5-logo.png";
 // front image from Sixth left Section 
 import  arcade  from "../images/icons/arcade.png";
+import YoutubeVideos from '../Youtube/YoutubeVideos';
 
 function Main() {
   return (
@@ -30,6 +31,8 @@ function Main() {
 
 <section className="alert-section top-50">
     <div className="container">
+        <br/> <br/>
+        
         <div className="alert-title">
             We’re open for you.
         </div>
@@ -242,7 +245,11 @@ function Main() {
             </div>					
         </div>
     </div> 
+    
 </section>
+    <div>
+        <YoutubeVideos />
+    </div>
     </div>
   )
 }
